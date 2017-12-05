@@ -3,4 +3,4 @@ Módulo para Magento1 que permite definir url final após o login do usuário, a
 
 ## Instruções
 Após instalado, passe a url que desejada no parâmetro *redirectUrl*.
-Ex: <a href="/customer/account/login/?redirectUrl=http://www.uol.com.br/">Fazer Login</a>
+Ex: /customer/account/login/?redirectUrl=http://www.uol.com.br/
