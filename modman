@@ -1,0 +1,3 @@
+app/etc/modules/RicardoMartins_CustomerRedirect.xml app/etc/modules/RicardoMartins_CustomerRedirect.xml
+app/code/community/RicardoMartins/CustomerRedirect/etc/config.xml app/code/community/RicardoMartins/CustomerRedirect/etc/config.xml
+app/code/community/RicardoMartins/CustomerRedirect/Model/Observer.php app/code/community/RicardoMartins/CustomerRedirect/Model/Observer.php

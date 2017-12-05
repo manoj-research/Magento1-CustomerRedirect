@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <RicardoMartins_CustomerRedirect>
+            <version>1.0.0</version>
+        </RicardoMartins_CustomerRedirect>
+    </modules>
+    <global>
+        <models>
+            <ricardomartins_customerredirect>
+                <class>RicardoMartins_CustomerRedirect_Model</class>
+            </ricardomartins_customerredirect>
+        </models>
+    </global>
+    <frontend>
+        <events>
+            <controller_action_predispatch_customer_account_login>
+                <observers>
+                    <ricardomartins_customerredirect>
+                        <type>singleton</type>
+                        <class>ricardomartins_customerredirect/observer</class>
+                        <method>setRedirectUrl</method>
+                    </ricardomartins_customerredirect>
+                </observers>
+            </controller_action_predispatch_customer_account_login>
+        </events>
+    </frontend>
+</config>
